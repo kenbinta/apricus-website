@@ -20,15 +20,15 @@ const Team: NextPage = () => {
   );
 };
 
-export async function getStaticPaths() {
-  return {
-    paths: [
-      attorneys.map((attorney) => ({
-        params: { slug: attorney.slug },
-      })),
-    ],
-    fallback: false,
-  };
-}
+// export async function getStaticPaths() {
+//   return {
+//     paths: [
+//       attorneys.map((attorney) => ({
+//         params: { slug: attorney.slug },
+//       })),
+//     ],
+//     fallback: false,
+//   };
+// }
 
 export default Team;
