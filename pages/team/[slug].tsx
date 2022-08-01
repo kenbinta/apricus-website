@@ -36,16 +36,39 @@ const Index = () => {
 
             <p className="mb-4 text-xl text-gray-900 dark:text-white italic"> {data.email}</p>
             <p className="mb-4 text-xl text-gray-900 dark:text-white"> {data.position}</p>
-            <div className="mb-2 text-xl text-gray-900 dark:text-white italic">Practice Areas</div>
-            <ul className="list-disc ml-4 mb-4">
-              {data.practiceAreas?.map((practiceArea) => (
-                <li className="text-gray-900 dark:text-white list-none" key={practiceArea}>
-                  - {practiceArea}
-                </li>
-              ))}
-            </ul>
-            <div className="mb-4 text-xl text-gray-900 dark:text-white">Biograhaphy</div>
-            <p className="mb-6  text-gray-700 md:text-lg dark:text-gray-400">{data.bio}</p>
+
+            {data.practiceAreas ? (
+              <>
+                {" "}
+                <div className="mb-2 text-xl text-gray-900 dark:text-white italic">Practice Areas</div>
+                <ul className="list-disc ml-4 mb-4">
+                  {data.practiceAreas?.map((practiceArea) => (
+                    <li className="text-gray-900 dark:text-white list-none" key={practiceArea}>
+                      - {practiceArea}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            ) : null}
+
+            {data.bio ? (
+              <>
+                <div className="mb-4 text-xl text-gray-900 dark:text-white">Biograhaphy</div>
+                <p className="mb-6  text-gray-700 md:text-lg dark:text-gray-400">{data.bio}</p>
+              </>
+            ) : null}
+            {data.professionallQualifications ? (
+              <>
+                <div className="mb-4 text-xl text-gray-900 dark:text-white">Professional Qualifications</div>
+                <ul className="list-disc ml-4 mb-4">
+                  {data.professionallQualifications?.map((proQualification) => (
+                    <li className="text-gray-900 dark:text-white list-none" key={proQualification}>
+                      - {proQualification}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            ) : null}
           </div>
           <div className="flex justify-center lg:-mt-96">
             <img src={data.image} alt={data.alt} />

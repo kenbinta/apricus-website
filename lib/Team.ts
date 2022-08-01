@@ -50,16 +50,17 @@ export const attorneys = [
     name: "Anyine Mercy",
     slug: "anyine-mercy",
     position: "Associate",
-    bio: "John Doe is a senior attorney with over 20 years of experience in the legal industry. ",
+
     image: "../assets/mercy.jpeg",
     alt: "Anyine Mercy",
+    professionallQualifications: ["LLB (Hons.), Dar es Salaam", "     Diploma in Legal Practice, Law Development Centre"],
   },
   {
     name: "Amusugut Grace Ruth",
     slug: "grace-ruth",
     position: "Associate",
-    bio: "John Doe is a senior attorney with over 20 years of experience in the legal industry. ",
     image: "../assets/grace.jpeg",
     alt: "Amusugut Grace Ruth",
+    professionallQualifications: [" LLB (Hons.), Uganda Christian University (Mukono)", " Diploma in Legal Practice, Law Development Centre"],
   },
 ];
