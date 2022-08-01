@@ -1,4 +1,4 @@
-export const APRICUS_LOGO_URL = "assets/logo.png";
+export const APRICUS_LOGO_URL = "../assets/logo.png";
 
 export const FooterContent = {
   quickLinks: {
@@ -43,24 +43,24 @@ export const FooterContent = {
 
 export const clienteleLogos = [
   {
-    companyLogo: "assets/clientele/1.jpg",
+    companyLogo: "../assets/clientele/1.jpg",
   },
   {
-    companyLogo: "assets/clientele/2.png",
+    companyLogo: "../assets/clientele/2.png",
   },
   {
-    companyLogo: "assets/clientele/3.png",
+    companyLogo: "../assets/clientele/3.png",
   },
   {
-    companyLogo: "assets/clientele/4.jpg",
+    companyLogo: "../assets/clientele/4.jpg",
   },
   {
-    companyLogo: "assets/clientele/5.png",
+    companyLogo: "../assets/clientele/5.png",
   },
   {
-    companyLogo: "assets/clientele/6.png",
+    companyLogo: "../assets/clientele/6.png",
   },
   {
-    companyLogo: "assets/clientele/7.jpg",
+    companyLogo: "../assets/clientele/7.jpg",
   },
 ];

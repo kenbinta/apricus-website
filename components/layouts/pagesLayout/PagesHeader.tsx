@@ -33,7 +33,7 @@ const PagesHeader = ({ title, breadCrumb }: any) => {
                         <p className="mr-2 text-sm font-medium  text-gray-500">{item.title}</p>
                       ) : (
                         <>
-                          <a href="team.html" className="mr-2 text-sm font-medium hover:text-amber-500">
+                          <a href={item.path} className="mr-2 text-sm font-medium hover:text-amber-500">
                             {item.title}
                           </a>
                           <svg width={16} height={20} viewBox="0 0 16 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="w-4 h-5 text-gray-300">

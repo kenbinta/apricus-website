@@ -1,4 +1,5 @@
 import React from "react";
+import ApricusFancyIcon from "../../components/layouts/ApricusFancyIcon";
 import PagesHeader from "../../components/layouts/pagesLayout/PagesHeader";
 import { aboutUsData } from "../../lib/AboutUs";
 
@@ -18,12 +19,13 @@ const About = () => {
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
           <img className="w-full" src={aboutUsData.image} alt="about image" />
           <div className="mt-4 md:mt-0">
+          <ApricusFancyIcon />
             <h2 className="apricus-heading-black">{aboutUsData.title}</h2>
             <p className="mb-6  text-gray-800 md:text-lg dark:text-gray-400">{aboutUsData.introduction}</p>
           </div>
         </div>
       </section>
-      <div>
+      {/* <div>
         <div className="grid md:grid-cols-3">
           {aboutUsData.statements.map((statement, index) => {
             return (
@@ -50,7 +52,7 @@ const About = () => {
             <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

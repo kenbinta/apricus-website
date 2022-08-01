@@ -4,7 +4,7 @@ export const attorneys = [
     slug: "mugabe-oscar",
     position: "Managing Partner",
     bio: "Mugabe Oscar is a Holder Bachelor of Laws Degree (Honours) from Makerere University and a Post Graduate Diploma in Legal Practice from Law Development Centre He is an expert in offering practical legal solutions to private sector service led environments working with and managing people and has been a key resource in managing complex legal cases from the beginning to end. Mr. Mugabe has extensive experience as company Secretary of Multi National corporations and has overseen road construction projects such as the Kampala-Entebbe Express Highway and the Expansion of the Entebbe International Airport.",
-    image: "assets/oscar.jpg",
+    image: "../assets/oscar.jpg",
     alt: "Mugabe Oscar",
     email: "oscarm@apricusadvocates.com",
     practiceAreas: [
@@ -21,7 +21,7 @@ export const attorneys = [
     slug: "anita-nantale",
     position: "Partner",
     bio: "Anita graduated with a Bachelor of Laws degree and attained a Post Graduate Diploma in Legal Practice from the Law Development Centre. Anita started her legal practice at the Uganda National Roads Authority after her internship with the Attorney General’s Chambers providing both legal advisory and drafting pleadings. She is highly experienced in legal private practice.",
-    image: "assets/anita.jpeg",
+    image: "../assets/anita.jpeg",
     alt: "Anita Nantale",
     email: "anitan@apricusadvocates.com",
     practiceAreas: ["Immigration and Refugee law", "Banking Securities", "Procurement Law", "Probate succession and Trusts", "Real Estate and Property management"],
@@ -31,7 +31,7 @@ export const attorneys = [
     slug: "ezra-mugabi",
     position: "Partner",
     bio: "John Doe is a senior attorney with over 20 years of experience in the legal industry. ",
-    image: "assets/ezra.jpg",
+    image: "../assets/ezra.jpg",
     alt: "Ezra Mugabi",
   },
   {
@@ -39,7 +39,7 @@ export const attorneys = [
     slug: "blaise",
     position: "CEO",
     bio: "John Doe is a senior attorney with over 20 years of experience in the legal industry. ",
-    image: "assets/blaise.jpeg",
+    image: "../assets/blaise.jpeg",
     alt: "Kamugisha Blaise",
     practiceAreas: ["Land and Property transactions", "Public Private Parternerships", "Civil and Criminal Litigation", "Insurance law", "Taxation law"],
   },
@@ -48,7 +48,7 @@ export const attorneys = [
     slug: "anyine-mercy",
     position: "Associate",
     bio: "John Doe is a senior attorney with over 20 years of experience in the legal industry. ",
-    image: "assets/mercy.jpeg",
+    image: "../assets/mercy.jpeg",
     alt: "Anyine Mercy",
   },
   {
@@ -56,7 +56,7 @@ export const attorneys = [
     slug: "grace-ruth",
     position: "Associate",
     bio: "John Doe is a senior attorney with over 20 years of experience in the legal industry. ",
-    image: "assets/grace.jpeg",
+    image: "../assets/grace.jpeg",
     alt: "Amusugut Grace Ruth",
   },
 ];
