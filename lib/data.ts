@@ -37,7 +37,7 @@ export const FooterContent = {
   },
   contactInfo: {
     title: "Contact Us",
-    contact: ["123 Main St, Suite 100, New York, NY 10001", "123-456-7890", "info@apricusadvocates.com"],
+    contact: ["Plot 107 Buganda Rd, Afri Courts Building 3rd Floor", " P.O Box 101583, Kampala, Uganda", "+256 774 723397 "," +256 703 775665", "info@apricusadvocates.com"],
   },
 };
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { APRICUS_LOGO_URL, FooterContent } from "../lib/data";
+import { apricusServices } from "../lib/Services";
 
 const Footer = () => {
   return (
@@ -13,9 +14,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4 ">
-            <div className="hidden sm:block">
-
-            </div>
+            <div className="hidden sm:block"></div>
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-100  dark:text-white">{FooterContent.quickLinks.title}</h2>
               <ul className="text-gray-100 dark:text-gray-400">
@@ -33,11 +32,11 @@ const Footer = () => {
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">{FooterContent.apricusServices.title}</h2>
               <ul className="text-gray-100 dark:text-gray-400">
-                {FooterContent.apricusServices.links.map((link, index) => {
+                {apricusServices.map((link, index) => {
                   return (
                     <li key={index} className="mb-4">
-                      <a href={link.link} className="hover:underline">
-                        {link.name}
+                      <a href={"/practice-areas"} className="hover:underline">
+                        {link.title}
                       </a>
                     </li>
                   );
@@ -56,12 +55,6 @@ const Footer = () => {
                     </li>
                   );
                 })}
-
-                <li>
-                  <a href="#" className="hover:underline">
-                    Terms &amp; Conditions
-                  </a>
-                </li>
               </ul>
             </div>
           </div>

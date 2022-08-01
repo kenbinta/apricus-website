@@ -1,4 +1,5 @@
 import { ArrowRightIcon, CashIcon, HomeIcon, OfficeBuildingIcon, ScaleIcon, ShieldCheckIcon } from "@heroicons/react/outline";
+import Link from "next/link";
 
 import React from "react";
 import { apricusServices } from "../lib/Services";
@@ -48,14 +49,12 @@ const Services = () => {
                 </div>
                 <h3 className="mb-4 text-xl font-bold text-gray-300 dark:text-white">{service.title}</h3>
                 <p className="text-gray-500 dark:text-gray-400">{service.shortDescription}</p>
-
-                <a
-                  href="#"
-                  className="text-white hover:text-gray-300  font-medium rounded-lg text-sm  my-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >
-                  Read More
-                  <ArrowRightIcon className="ml-2 -mr-1 w-5 h-5" />
-                </a>
+                <Link href="/practice-areas">
+                  <a className="text-white hover:text-gray-300  font-medium rounded-lg text-sm  my-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read More
+                    <ArrowRightIcon className="ml-2 -mr-1 w-5 h-5" />
+                  </a>
+                </Link>
               </div>
             );
           })}
