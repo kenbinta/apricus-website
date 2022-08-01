@@ -8,9 +8,9 @@ const Attorneys = () => {
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
         <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
           <div className="flex justify-center">
-          <ApricusFancyIcon />
+            <ApricusFancyIcon />
           </div>
-          
+
           <h2 className="apricus-heading-black ">Meet our Attorneys</h2>
           <p className="apricus-subheading-black">Our team is comited to represent our clients interests</p>
         </div>

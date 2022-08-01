@@ -46,15 +46,15 @@ export const attorneys = [
     email: "blaisek@apricusadvocates.com",
     practiceAreas: ["Land and Property transactions", "Public Private Parternerships", "Civil and Criminal Litigation", "Insurance law", "Taxation law"],
   },
-  {
-    name: "Anyine Mercy",
-    slug: "anyine-mercy",
-    position: "Associate",
+  // {
+  //   name: "Anyine Mercy",
+  //   slug: "anyine-mercy",
+  //   position: "Associate",
 
-    image: "../assets/mercy.jpeg",
-    alt: "Anyine Mercy",
-    professionallQualifications: ["LLB (Hons.), Dar es Salaam", "     Diploma in Legal Practice, Law Development Centre"],
-  },
+  //   image: "../assets/mercy.jpeg",
+  //   alt: "Anyine Mercy",
+  //   professionallQualifications: ["LLB (Hons.), Dar es Salaam", "     Diploma in Legal Practice, Law Development Centre"],
+  // },
   {
     name: "Amusugut Grace Ruth",
     slug: "grace-ruth",

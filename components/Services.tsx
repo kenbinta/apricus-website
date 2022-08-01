@@ -40,7 +40,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+        <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-2 md:gap-12 md:space-y-0">
           {apricusServices.slice(0, 6).map((service, index) => {
             return (
               <div key={index}>
