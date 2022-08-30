@@ -40,7 +40,7 @@ const Home: NextPage = () => {
 
       <Services />
       <Team />
-      <Clientelle />
+      {/* <Clientelle /> */}
       <CTASection />
     </div>
   );

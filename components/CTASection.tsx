@@ -4,7 +4,7 @@ import React from "react";
 
 const CTASection = () => {
   return (
-    <section className="bg-blue-50 dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="max-w-screen-md">
           <h2 className="apricus-heading-black">Happy to Discuss About Your Requirements.</h2>
